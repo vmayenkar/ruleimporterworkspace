@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rule Importer
+Bundle-SymbolicName: com.ibm.rmt.importer.ui;singleton:=true
+Bundle-Version: 1.0.0.0
+Bundle-Activator: com.ibm.rmt.importer.Activator
+Bundle-Vendor: IBM
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ ilog.rules.studio.model;bundle-version="8.7.1",
+ ilog.rules.studio.model.brl;bundle-version="8.7.1",
+ ilog.rules.studio.model.dt;bundle-version="8.7.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/Common.jar

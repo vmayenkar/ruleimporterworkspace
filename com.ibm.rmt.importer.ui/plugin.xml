@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.ibm.rmt.importer.ui.actionSet"
+            label="Sample Action Set"
+            visible="true">
+         <menu
+               id="sampleMenu"
+               label="Import &amp;Rules">
+            <separator
+                  name="sampleGroup">
+            </separator>
+         </menu>
+         <action
+               class="com.ibm.rmt.importer.ui.ImportAction"
+               icon="icons/sample.gif"
+               id="com.ibm.rmt.importer.ui.actions.ImportAction"
+               label="&amp;Import"
+               menubarPath="sampleMenu/sampleGroup"
+               toolbarPath="sampleGroup"
+               tooltip="Import Rules">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>
