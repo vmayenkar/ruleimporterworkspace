@@ -57,6 +57,9 @@ rule package and rule type. The file is located in config folder of the RuleImpo
 							
 Getting started
 ===============
+
+##Setting up workspace
+
 The steps below assume that you are familiar with the use of IBM ODM Rule Designer tool. Refer to [IBM ODM documentation] (http://www.ibm.com/support/knowledgecenter/SSQP76_8.7.1/welcome/kc_welcome_odmV.html) if you are not familiar with IBM ODM Rule Designer tool.
 
 1. Create a new workspace called *ruleimporterworkspace* and import **RuleImporterCommon**, **RuleImporter** and **com.ibm.rmt.importer.ui** projects into the newly created workspace using Rule Designer. Update Java build path for the projects as described in the section on Workspace description and ensure that there are no errors in your workspace.
