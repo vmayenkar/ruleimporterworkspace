@@ -31,10 +31,10 @@ public class RuleGenerator {
 		/*
 		 * Process the program arguments
 		 */
-		String uri = "http://localhost:9081/teamserver";
+		String uri = "http://localhost:9080/teamserver";
 		String datasource = "jdbc/ilogDataSource";
 		String username = "rtsAdmin";
-		String password = "passw0rd";
+		String password = "rtsAdmin";
 		String importFile = "../RuleImporterCommon/config/import.properties";
 
 		for (int i = 0; i < args.length - 1;) {
