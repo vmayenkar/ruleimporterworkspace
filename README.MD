@@ -10,12 +10,12 @@ Workspace
 =========
 The workspace consists of three projects as described below
 
-**RuleImporterCommon**
+###RuleImporterCommon
 This project contains classes that are used in the other two projects.
 Include jars in <ODM install directory>/teamserver/lib and the jars in 
 <ODM install directory>/teamserver/lib/eclipse_plugin in the build path of this project.
 						
-**RuleImporter**
+###RuleImporter
 This project contains classes that connect to the Decision Center instance and 
 create rule artifacts in the Decision Center. The classes in this project illustrate 
 use of ODM Decision Center API to connect and create rule artifacts in the Decision Center. 
@@ -31,7 +31,7 @@ Include jars in <ODM install directory>/teamserver/lib
 and the jars in <ODM install directory>/teamserver/lib/eclipse_plugin in the build path
 of this project. 
 						
-**com.ibm.rmt.importer.ui**	
+###com.ibm.rmt.importer.ui	
 This project contains classes that implement plug-in for Rule Designer and illustrate use of
 ODM Rule Designer API to create ODM rule artifacts. 
 							
