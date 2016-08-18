@@ -1,4 +1,4 @@
-This repository contains resources related to IBM developerWorks tutorial "Generate rule artifacts with ODM APIs" showing you how the ODM  APIs can be used to create rule artifacts programmatically. 
+This repository contains resources related to IBM developerWorks tutorial [Generate rule artifacts with ODM APIs](https://www.ibm.com/developerworks/library/mw-1608-mayenkar-trs/1608-mayenkar.html) showing you how the ODM  APIs can be used to create rule artifacts programmatically. 
 
 For license information, see license.txt file in the root directory of this project.
 
